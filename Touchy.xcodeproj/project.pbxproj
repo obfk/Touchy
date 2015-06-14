@@ -13,6 +13,7 @@
 		3FDAA33A1B2CF58E00B99A8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDAA3391B2CF58E00B99A8D /* Images.xcassets */; };
 		3FDAA33D1B2CF58E00B99A8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FDAA33B1B2CF58E00B99A8D /* LaunchScreen.xib */; };
 		3FDAA3491B2CF58E00B99A8D /* TouchyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDAA3481B2CF58E00B99A8D /* TouchyTests.swift */; };
+		3FDAA3531B2CFB2100B99A8D /* TouchyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDAA3521B2CFB2100B99A8D /* TouchyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3FDAA3421B2CF58E00B99A8D /* TouchyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDAA3471B2CF58E00B99A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FDAA3481B2CF58E00B99A8D /* TouchyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchyTests.swift; sourceTree = "<group>"; };
+		3FDAA3521B2CFB2100B99A8D /* TouchyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3FDAA3321B2CF58E00B99A8D /* AppDelegate.swift */,
 				3FDAA3341B2CF58E00B99A8D /* ViewController.swift */,
+				3FDAA3521B2CFB2100B99A8D /* TouchyView.swift */,
 				3FDAA3361B2CF58E00B99A8D /* Main.storyboard */,
 				3FDAA3391B2CF58E00B99A8D /* Images.xcassets */,
 				3FDAA33B1B2CF58E00B99A8D /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				3FDAA3351B2CF58E00B99A8D /* ViewController.swift in Sources */,
 				3FDAA3331B2CF58E00B99A8D /* AppDelegate.swift in Sources */,
+				3FDAA3531B2CFB2100B99A8D /* TouchyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +415,7 @@
 				3FDAA34E1B2CF58E00B99A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FDAA34F1B2CF58E00B99A8D /* Build configuration list for PBXNativeTarget "TouchyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				3FDAA3511B2CF58E00B99A8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
